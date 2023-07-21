@@ -3,9 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example</groupId>
-    <artifactId>project-base</artifactId>
-    <name>Project base for Vaadin</name>
+    <groupId>org.vaadin.spectrum</groupId>
+    <artifactId>spectrum-demo</artifactId>
+    <name>Spectrum Components for Vaadin Demo</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -92,6 +92,12 @@
             <artifactId>vaadin</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.vaadin.addons.spectrum</groupId>
+            <artifactId>spectrum</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
         <!-- Added to provide logging output as Vaadin uses -->
         <!-- the unbound SLF4J no-operation (NOP) logger implementation -->
         <dependency>
@@ -103,6 +109,11 @@
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-testbench-junit5</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.10.2</version>
         </dependency>
     </dependencies>
 

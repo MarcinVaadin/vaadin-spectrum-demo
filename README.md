@@ -1,3 +1,5 @@
 ## Spectrum Web Components for Vaadin
 
-Implementation of https://github.com/MarcinVaadin/vaadin-spectrum-web-components
+Implementation of https://github.com/MarcinVaadin/vaadin-spectrum-web-components.
+
+Work in progress.
